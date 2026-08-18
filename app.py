@@ -18,6 +18,7 @@ def search_movies(genre: str) -> str:
         "sci-fi": "Cargo, 2.0, Mr. India",
         "comedy": "3 Idiots, Hera Pheri, Munna Bhai M.B.B.S.",
         "action": "RRR, Vikram, Baahubali"
+        "horror": "Stree, Bhoothakaalam, Masooda"
     }
     return movies.get(genre.lower(), "No movies found for that genre")
 
